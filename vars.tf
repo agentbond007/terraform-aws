@@ -3,9 +3,17 @@
 # ENVIRONMENT VARIABLES
 # Define these secrets as environment variables
 # ---------------------------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------------------------
+# ENVIRONMENT VARIABLES
+# Define these secrets as environment variables
+# ---------------------------------------------------------------------------------------------------------------------
 
-# AWS_ACCESS_KEY_ID
-# AWS_SECRET_ACCESS_KEY
+variable "AWS_ACCESS_KEY_ID" {
+   description = "here"
+}
+variable "AWS_SECRET_ACCESS_KEY" {
+   description = "here"
+}
 
 # ---------------------------------------------------------------------------------------------------------------------
 # OPTIONAL PARAMETERS
